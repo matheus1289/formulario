@@ -1,0 +1,139 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    transition: 0.5s;
+}
+a:hover {
+    color: blue;
+}
+section{
+    background: url("img/fundo.JPEG.jpeg") center center/cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+}
+/* fim geral */
+
+/* principal */
+.formulario{
+    width: 90%;
+    max-width: 450px;
+    height: 500px;
+    padding: 30px;
+    margin: 0 auto;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 15px #da6b5f;
+    text-align: center;
+    
+    
+}
+
+.formulario img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+.formulario h1{
+    margin: 20px 0;
+    font-size: 35px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 0 0 10px #283b47;
+}
+.formulario .input{
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    color: white;
+    outline: none;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+}
+input::placeholder{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+}
+.formulario .check{
+    text-align: start;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    font-weight: 700;
+    
+}
+.link a{
+    font-weight: 700;
+}
+.formulario .check input{
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.formulario .submit input{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer; 
+    font-size: 18px; 
+    margin: 10px 0;
+    transition: 0.5s;
+    background-color: #da6b5f;
+    box-shadow: 0 0 10px #283b47;
+    font-weight: 700;
+    color: white;
+}
+
+.formulario p{
+    margin: 20px 0;
+    font-size: 18px;
+    color: white;
+    font-family: 500;
+    font-style: italic;
+}
+.submit:hover input{
+    background-color: #283b47;
+    box-shadow: 0 0 10px #da6b5f;
+}
+.email{
+    position: relative;
+}
+p a{
+    font-weight: 700;
+}
+i{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    right: 3px;
+    bottom: 20px;
+}
+.senha{
+    position: relative;
+}
+.nome{
+    position: relative;
+}
